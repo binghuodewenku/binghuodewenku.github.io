@@ -1590,8 +1590,8 @@ pre .javascript .function {
 }
 .posts-expand .post-eof {
   margin: 80px auto 60px;
-  width: 8%;
-  height: 1px;
+  width: 60%;
+  height: 2px;
   background: #ccc;
   text-align: center;
 }
@@ -1774,7 +1774,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9c74ff;
+  background: #1252ff;
 }
 .feed-link,
 .chat {
@@ -2837,6 +2837,17 @@ body {
 .main-inner {
   opacity: 0.85;
 }
+#,
+.site-meta {
+  background: #f0d784;
+}
+#,
+.site-meta {
+  background: url("https://s1.ax1x.com/2018/12/20/FrBwsU.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#,
 .brand {
   color: #d4ffd4;
 }
@@ -2851,4 +2862,35 @@ body {
 }
 .footer .with-love {
   color: #003000;
+}
+.post-button .btn {
+  color: #555 !important;
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 15px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.2);
+  border: none !important;
+  transition-property: unset;
+  padding: 0px 15px;
+}
+.post-button .btn:hover {
+  color: #fff !important;
+  border-radius: 3px;
+  font-size: 15px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.35);
+  background-color: #006400;
+}
+.back-to-top {
+  line-height: 3;
+  right: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(0,80,0,0.85);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+}
+.back-to-top.back-to-top-on {
+  bottom: 10px;
 }
