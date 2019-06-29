@@ -1774,7 +1774,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9c6e21;
+  background: #ffffcf;
 }
 .feed-link,
 .chat {
@@ -2836,4 +2836,19 @@ body {
 }
 .main-inner {
   opacity: 0.85;
+}
+.brand {
+  color: #d4ffd4;
+}
+.site-subtitle {
+  color: #0c0;
+}
+.footer {
+  color: #003000;
+}
+.footer a {
+  color: #003000;
+}
+.footer .with-love {
+  color: #003000;
 }
