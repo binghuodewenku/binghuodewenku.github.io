@@ -109,6 +109,8 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="絵空事" type="application/atom+xml">
+
 
 
   
@@ -414,13 +416,61 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/ceshi/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/ceshi/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
           
 
           
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
 
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">1.4k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">1 分钟</span>
+              
+            </div>
           
 
           
@@ -497,9 +547,9 @@
         
         <div class="post-tags">
           
-            <a href="/tags/PS3/" rel="tag"># PS3</a>
+            <a href="/tags/PS3/" rel="tag"><i class="fa fa-tag"></i> PS3</a>
           
-            <a href="/tags/Games/" rel="tag"># Games</a>
+            <a href="/tags/Games/" rel="tag"><i class="fa fa-tag"></i> Games</a>
           
         </div>
       
@@ -541,6 +591,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -631,6 +685,13 @@
           
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           
 
@@ -656,7 +717,7 @@
                   
                     
                   
-                  <a href="https://pawoo.net/@binghuohunhewu" title="趴窝随记 &rarr; https://pawoo.net/@binghuohunhewu" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>趴窝随记</a>
+                  <a href="https://pawoo.net/@binghuohunhewu" title="趴窝随记 &rarr; https://pawoo.net/@binghuohunhewu" rel="noopener" target="_blank"><i class="fa fa-fw fa-commenting"></i>趴窝随记</a>
                 </span>
               
             </div>
@@ -697,7 +758,21 @@
   <span class="author" itemprop="copyrightHolder">冰火混合物</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">2k</span>
+  
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">2 分钟</span>
   
 </div>
 
@@ -716,6 +791,32 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
@@ -825,6 +926,34 @@
   
 
   
+  
+
+  
+
+<script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: '6vDEtFBYdJbXPhTljFDCxLW7-gzGzoHsz',
+    appKey: '1d4Dxp5v33MGm6MOA2AsEt1M',
+    placeholder: '欢迎光临虚幻之梦境，请开始您的旅行。',
+    avatar: 'identicon',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: 'zh-cn' || 'zh-cn'
+  });
+</script>
+
+
 
 
   
