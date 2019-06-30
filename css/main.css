@@ -1774,7 +1774,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1dd0;
+  background: #a449ff;
 }
 .feed-link,
 .chat {
@@ -2837,17 +2837,14 @@ body {
 .main-inner {
   opacity: 0.85;
 }
-#,
 .site-meta {
-  background: #f0d784;
+  background: #000;
 }
-#,
 .site-meta {
-  background: url("https://s1.ax1x.com/2018/12/20/FrBwsU.jpg");
+  background: url("/images/titleBG.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-#,
 .brand {
   color: #d4ffd4;
 }
